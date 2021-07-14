@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  margin: 10px auto 0 auto;
+  font-family: 'Rock Salt', cursive;
+  font-size: 4rem;
+  color: #556E53;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #556E53;
+}
+
+.top {
+  background-color: #EDF6E5;
+  position: relative;
+  padding-top: 200px;
+}
+
+.bottomcloud {
+  height: 160px;
+  position:absolute;
+  left: 200px;
+  top: 350px;
+}
+
+.topcloud {
+  height:180px;
+ position:absolute;
+ right: 200px;
+ top: 50px;
+}
+
+.btn {
+  color: #556E53;
+}
+
+.footer-link {
+  color: #B5CDA3;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: white;
+}
+
+.stuff-row {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 100px;
+  text-align: left;
+  line-height: 2;
+}
+
+.stuff-row2 {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 100px;
+  text-align: left;
+  line-height: 2;
+}
+
+.computer {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.frog {
+  width: 25%;
+  float: right;
+}
+
+.duck {
+  width: 15%
+}
+
+.bottom-container {
+  background-color: #556E53;
+  padding: 50px 0 20px;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.myButton {
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:11px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Montserrat', sans-serif;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #2b665e;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.copy-right {
+  color: white;
+  font-size: 0.74rem;
+  padding: 20px 0;
+}
+
+hr {
+  border-color: #BBBBBB;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  width: 4%;
+  margin: 100px auto;
+}
